@@ -28,6 +28,7 @@ language-babel
 
 手动创建.gitignore里面写名称,忽略不想上传的文件或文件夹
 
+git pull 从远端拉取更新
 
 本地上传
 
