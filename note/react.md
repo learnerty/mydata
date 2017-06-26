@@ -89,9 +89,10 @@ render(){} === render:function(){}
 引入css文件可以直接引入  `import './xxx.css'`
 
 #### 行内样式
+```
 style = {{}}  
 style = 一个对象 {属性名:'属性值',属性名:'属性值'}，因为对象是js语句，JSX语法不能写js语句，所以在对象外面用一对大括号包裹起来，遵循驼峰命名法，如fontSize
-
+```
 三种写行内样式的方法,还可以在外部导入变量
 ```js
 import {red, style} from './style'

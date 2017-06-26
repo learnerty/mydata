@@ -1,3 +1,4 @@
+### 配置webpack
 安装webpack  
 npm install -D webpack(项目内局部安装)  
 npm install -g webpack(全局安装)

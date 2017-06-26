@@ -6,10 +6,10 @@
   yarn init
 ```
 
-npm install jquery --save  安装jquery插件  --save 向package.json记录  
-等同yarn add jquery
+`npm install jquery --save`  安装jquery插件  --save 向package.json记录  
+等同`yarn add jquery`
 
-npm install  安装配置文件package.json记录的所有依赖
+`npm install`  安装配置文件package.json记录的所有依赖
 
 用npm装的包，直接require('包名')，如果是自己的包，则require('相对路径/包名')
 
@@ -31,19 +31,19 @@ npm install [packagename] [--save]
   卸载后需要手动在package.json里删除依赖关系
 ```
 
-npm install -g create-react-app
+`npm install -g create-react-app`    全局安装create-react-app
 
-create-react-app 名称  创建react环境
+`create-react-app 名称`  创建react脚手架
 
-create-react-app --version  查看版本
+`create-react-app --version`  查看版本
 
-create-react-app --help   查看帮助
+`create-react-app --help`   查看帮助
 
-npm run start  运行
+`npm run start`  运行react环境
 
-npm list -g 查看全局装的包
+`npm list -g` 查看全局装的包
 
-npm install yarn -g  安装yarg
+`npm install yarn -g`  安装yarg
 
 
 #### yarn

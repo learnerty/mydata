@@ -16,7 +16,7 @@ function App({title,age}){
 
 `BrowserRouter as Router  把Ccc作为App来使用,Router代替BrowserRouter`  
 `BrowserRouter 需要后台服务器支撑，需要服务器配合使用，HashRouter不需要服务器支撑，在页面路径前多了/#，表示在本页面跳转，两个都是找的一个html`   
-import {BrowserRouter as Router, Route, Link} from 'react-router-dom';  
+`import {BrowserRouter as Router, Route, Link} from 'react-router-dom';`  
 Router组件本身是一个容器，所有组件都放在<Router></Router>里,只能有一个children，不能有多个节点，Route写单条的路由规则:<Route path='地址' component={组件名} />   exact严格匹配
 ```js
 <Router>
@@ -30,9 +30,9 @@ Router组件本身是一个容器，所有组件都放在<Router></Router>里,�
 可以嵌入一个变量，冒号表示变量,冒号后写变量名来写变量  path='/:变量名'  可以用{props.match.params.变量名}来拿到变量的值
 
 #### 请求重定向
-<Redirect from='/old' to='/new'/>  将old页面请求跳转到new页面
+`<Redirect from='/old' to='/new'/>`  将old页面请求跳转到new页面
 
-<Switch></Switch> 不加的话是所有符合的都会挂载上，加上后匹配规则变为，从上往下找，成功匹配到一条就不往下找了
+`<Switch></Switch>` 不加的话是所有符合的都会挂载上，加上后匹配规则变为，从上往下找，成功匹配到一条就不往下找了
 ```js
 <Switch>
   <Route exact path='/' component={Home} />
@@ -51,7 +51,7 @@ Router组件本身是一个容器，所有组件都放在<Router></Router>里,�
 </Switch>
 ```
 
-<NavLink></NavLink> 用作导航，在当前选中页有默认的class名：active，可以用activeClassName=""来更改默认的名称，也可以activeStyle={{...: '...'}}来写行内样式
+`<NavLink></NavLink>` 用作导航，在当前选中页有默认的class名：active，可以用activeClassName=""来更改默认的名称，也可以`activeStyle={{...: '...'}}`来写行内样式
 
 `history方法`
 ```js

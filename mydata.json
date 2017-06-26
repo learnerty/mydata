@@ -1,11 +1,18 @@
 [
   {"index":1,"title":"git","desc":"git常用命令","url":"git"},
-  {"index":2,"title":"npm","desc":"npm+yarn","url":"npm"},
-  {"index":3,"title":"es6","desc":"es6学习","url":"es6"},
-  {"index":4,"title":"react","desc":"react学习","url":"react"},
-  {"index":5,"title":"react-router-dom","desc":"react-router-dom路由","url":"reactrouter"},
-  {"index":6,"title":"ajax","desc":"AJAX学习","url":"ajax"},
-  {"index":7,"title":"ui","desc":"material-ui使用","url":"ui"},
-  {"index":8,"title":"webpack2","desc":"webpack2简单配置","url":"webpack2"},
-  {"index":9,"title":"mongodb","desc":"mongodb","url":"mongodb"}
+  {"index":2,"title":"nodejs","desc":"简单nodejs","url":"nodejs"},
+  {"index":3,"title":"npm","desc":"npm+yarn简单命令","url":"npm"},
+  {"index":4,"title":"es6","desc":"es6学习","url":"es6"},
+  {"index":5,"title":"react","desc":"react学习","url":"react"},
+  {"index":6,"title":"reactRouter","desc":"react-router-dom路由","url":"reactRouter"},
+  {"index":7,"title":"ajax","desc":"AJAX学习","url":"ajax"},
+  {"index":8,"title":"ui","desc":"material-ui使用","url":"ui"},
+  {"index":9,"title":"webpack","desc":"webpack2简单配置","url":"webpack"},
+  {"index":10,"title":"store","desc":"redux Store","url":"store"},
+  {"index":11,"title":"connect","desc":"connect订阅store数据","url":"connect"},
+  {"index":12,"title":"combine-reducers","desc":"reducer拆分","url":"combine-reducers"},
+  {"index":13,"title":"thunk","desc":"redux-thunk","url":"thunk"},
+  {"index":14,"title":"vue","desc":"初试vue","url":"vue"},
+  {"index":15,"title":"vue-router","desc":"vue-router简单介绍","url":"vue-router"},
+  {"index":16,"title":"vuex","desc":"vuex简单介绍","url":"vuex"}
 ]
